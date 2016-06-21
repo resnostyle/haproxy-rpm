@@ -22,7 +22,7 @@ env:
 
 script:
   - git clone https://github.com/tarantool/build.git
-  - ./build/pack/travis.sh
+  - ./build/pack/travis.sh PRODUCT=haproxy
 
 #notifications:
 #  email: true
