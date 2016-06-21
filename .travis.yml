@@ -21,7 +21,7 @@ env:
       - PACK=none
 
 script:
-  - git clone https://github.com/tarantool/build.git
+  - git clone https://github.com/resnostyle/build.git
   - ./build/pack/travis.sh
 
 #notifications:
