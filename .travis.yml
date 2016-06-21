@@ -18,7 +18,7 @@ env:
 #      - OS=debian DIST=wheezy PACK=deb
 #      - OS=debian DIST=stretch PACK=deb
 #      - OS=debian DIST=sid PACK=deb
-      - PACK=none
+#      - PACK=none
 
 script:
   - git clone https://github.com/resnostyle/build.git
