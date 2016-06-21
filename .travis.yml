@@ -4,8 +4,8 @@ services:
 
 env:
     matrix:
-      - OS=centos DIST=6 PACK=rpm
-      - OS=centos DIST=7 PACK=rpm
+      - OS=centos DIST=6 PACK=rpm PRODUCT=haproxy
+      - OS=centos DIST=7 PACK=rpm PRODUCT=haproxy
 #      - OS=fedora DIST=22 PACK=rpm
 #      - OS=fedora DIST=23 PACK=rpm
 #      - OS=fedora DIST=24 PACK=rpm
@@ -22,7 +22,7 @@ env:
 
 script:
   - git clone https://github.com/tarantool/build.git
-  - ./build/pack/travis.sh PRODUCT=haproxy
+  - ./build/pack/travis.sh
 
 #notifications:
 #  email: true
