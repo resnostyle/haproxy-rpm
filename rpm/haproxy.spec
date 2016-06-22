@@ -6,6 +6,7 @@ License: GPL
 Group: System Environment/Daemons
 URL: http://www.haproxy.org/
 Source0: http://www.haproxy.org/download/1.6/src/%{name}-%{version}.tar.gz
+BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: pcre-devel
 Requires: /sbin/chkconfig, /sbin/service
