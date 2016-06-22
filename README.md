@@ -1,3 +1,3 @@
 # haproxy-rpm
 
-Building haproxy rpms one day
+Building haproxy rpms one days
